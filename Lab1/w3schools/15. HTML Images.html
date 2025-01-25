@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Images</title>
+    </head>
+    <body style="background-image: url(img/pockemonbg.jpg); background-attachment: fixed; background-size: 100% 100%; background-repeat: no-repeat;">
+        <img src="img/Bulbasaur.jpg" alt="Bulbasaur">
+
+        <img src="img/glaceon.png" alt="Glaceon" width="250" height="250">
+
+        <img src="img/umbreon.png" alt="Umbreon" style="width: 250px; height: 250px;">
+
+        <img src="https://i.redd.it/0nxeottts5s61.jpg" alt="Spheal" width="250" height="250">
+
+        <img src="img/happypokemons.gif">
+
+        <a href="https://pokemondb.net/">
+            <img src="img/pokemonDB.jpg" alt="Pokemon Database" style="float: right;">
+          </a>
+
+        <img src="img/randompokemon.jpg" alt="Pokemon to pet" usemap="#workmap">
+        <map name="workmap">
+          <area shape="rectangle" coords="326, 262, 736, 436" alt="Head" href="https://id.portal-pokemon.com/play/pokedex/0877" onclick="myFunction()">
+        </map>
+
+        <script>
+            function myFunction() {
+                alert("Morpeko is caught! You're entering Pokedex!")
+            }
+        </script>
+
+        <picture>
+            <source srcset="img/shinymimikyu.png">
+            <source srcset="inonexistentpokemon.png">
+            <img src="anothernonexistent.gif" alt="SomePokemon" style="width:auto;">
+        </picture>
+
+    </body>
+</html>

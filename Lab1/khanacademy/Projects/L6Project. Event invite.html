@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <script>
+            function showAlert() {
+              alert ("Haven't you noticed it's outdated?... Nah, you're not invited.");
+            }
+            </script>
+        <style>
+            body {
+                background-color: rgb(229, 204, 236);
+            }
+            div#main {
+                margin: 10%;
+                padding: 5%;
+                background-color: antiquewhite;
+            }
+            #invitationtext {
+                margin: auto;
+                text-align: center;
+            }
+            h2 {
+                font-size: 400%;
+                color: rgb(255, 81, 162);
+                -webkit-text-stroke: 0.8px black;
+                font-family: 'Courier New', Courier, monospace;
+                padding: 0;
+                margin: 0;
+            }
+            h1 {
+                font-family: monospace;
+            }
+            p {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 120%;
+                text-align: center;
+            }
+            span {
+                font-weight: bold;
+            }
+            .purple {
+                color: purple;
+            }
+            .red {
+                color: red;
+            }
+            .green {
+                color: rgb(28, 255, 28);
+            }
+            .blue {
+                color: blue;
+            }
+            #date {
+                background-color: rgb(255, 252, 248);
+                width: 30%;
+                padding: 1%;
+                margin: auto;
+                margin-top: 100px;
+            }
+            a:hover p {
+                background-color: chartreuse;
+                width:100%;
+            }
+            #butterfly {
+                position: absolute;
+                float: right;
+                margin-left: 60%;
+                top: 0%;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="butterfly">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/63ea172c-1931-4b26-829f-465efd85fd41/d7k9vrc-14fa415b-2b7d-44bd-baaf-5d2fd1700214.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYzZWExNzJjLTE5MzEtNGIyNi04MjlmLTQ2NWVmZDg1ZmQ0MVwvZDdrOXZyYy0xNGZhNDE1Yi0yYjdkLTQ0YmQtYmFhZi01ZDJmZDE3MDAyMTQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ppafvinNcT7nf3hbxYiuk4BzTObjJxpK7kgMY_-q_nY" height="200px">
+            </div>
+            <div id="invitationtext">
+                <h1>You are invited to Eva's</h1>
+                <h2>BIRTHDAY PARTY</h2>
+            </div>
+            <div id="contents">
+                <p>You are invited to super-duper-mega <span class="purple">birthday</span> party!</p>
+                <p>It's <span class="green">once-in-a-lifetime</span> chance, my friend.</p>
+                <p>I mean, no offense, but who else is gonna invite <span class="blue">you</span>?</p>
+                <p>Yeah, that's what I've thought. Consider it a <span class="red">charity</span>.</p>
+            </div>
+            <a onclick="showAlert()" href="#"><div id="date">
+                <p>22.02.2022</p>
+            </div>
+            </a>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+        <style>
+        table {
+            border: 5px solid purple;
+            border-spacing: 5px;
+        }
+        th, td {
+            border: 3px solid darkmagenta;
+            background-color: antiquewhite;
+            border-style: groove;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        td:hover {background-color: coral;}
+        </style>
+    </head>
+    <body>
+       <table style="width: 100%;">
+        <caption>Random Pokemon chart</caption>
+          <tr>
+            <th></th>
+            <th style="background-color: green;">Grass</th> <!--table headers-->
+            <th style="background-color: cornflowerblue;">Water</th>
+            <th style="background-color: coral;">Fire</th>
+            <th style="background-color: darkmagenta;">Ghost</th>
+            <th style="width: 45%; background-color: yellow;" colspan="2">Legendary</th>
+          </tr>
+          <tr> <!--table rows-->
+            <th>Well-known:</th>
+            <td>Chikorita</td> <!--table data-->
+            <td>Squirtle</td>
+            <td>Charmander</td>
+            <td>Gengar</td>
+            <td style="background-color: lightpink;">Mew</td>
+            <td style="background-color: hotpink;">Mewtwo</td>
+          </tr>
+          <tr>
+            <th>Less known:</th>
+            <td>Treecko</td>
+            <td>Poliwhirl</td>
+            <td>Vulpix</td>
+            <td>Drifloon</td>
+            <td rowspan="2">Latios and Latias</td>
+            <td>Zapdos</td>
+          </tr>
+          <tr>
+            <th>Random choice:</th>
+            <td>Seedot</td>
+            <td>Magikarp</td>
+            <td>Flareon</td>
+            <td>Yamask</td>
+            <td>Registeel</td>
+          </tr>
+       </table>
+    </body>
+</html>
