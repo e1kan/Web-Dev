@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Microsoft sans-serif', sans-serif, Arial;
+    color: black;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 23px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #262626;
+}
+
+header a:hover {
+    text-decoration: underline 2px;
+ }
+
+header {
+    height: 50px;
+    padding-bottom: 15px;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style: none;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+header li {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#microsoft-logo-img {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.button-shop {
+    background-color: #0167B8;
+    color: #F7FAFD;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+}
+
+#fixed-button-wrapper button {
+    width: 100%;
+    padding: 16px;
+}
+
+#bigass-image {
+    height: 500px;
+    background-color: #80b5e0;
+    padding-top: 35px;
+}
+
+#product-ad-content {
+    background-color: white;
+    margin-left: 100px;
+    height: 225px;
+    width: 560px;
+    padding: 30px;
+    padding-left: 45px;
+    border-radius: 1px;
+    -webkit-box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+    p {
+        width: 80%;
+        padding-bottom: 10px;
+    }
+}
+
+#small-under-image-thingy {
+    margin: auto;
+    text-align: center;
+}
+
+#small-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 45px;
+}
+
+#small-gallery a {
+    color: #2583c2;
+    font-weight: 600;
+    text-decoration: underline;
+    :visited {
+        color: #2583c2;
+    }
+}
+
+#small-gallery div {
+    height: 70px;
+    padding: 8px;;
+}
+
+#small-gallery img {
+    display: block;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#big-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#big-gallery div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 380px;
+    width: 320px;
+    border-radius: 5px;
+    border: 2px solid #E5E5E5;
+    -webkit-box-shadow: 1px 20px 39px -16px rgba(168,168,168,1);
+    -moz-box-shadow: 1px 20px 39px -16px rgba(168,168,168,1);
+    box-shadow: 1px 20px 39px -16px rgba(168,168,168,1);
+}
+
+#big-gallery div img {
+    height: 160px;
+    width: 100%;
+    border-radius: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+#big-gallery p {
+    width: 90%;
+    margin: auto;
+}
+
+#big-gallery button {
+    margin-top: auto;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: fit-content;
+}

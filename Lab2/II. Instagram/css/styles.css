@@ -1,0 +1,151 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Instagram Sans', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+p {
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.blue {
+    color: #0095F6;
+    font-weight: 600;
+}
+
+#content-wrapper {
+    display: flex;
+}
+
+#main-image {
+    margin-top: 40px;
+    margin-left: 400px;
+}
+
+#main-image img {
+    height: 580px;
+}
+
+#login-form-content-wrapper {
+    height: 575px;
+    width: 350px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 38px;
+}
+
+#reg-popup, #login-form-wrapper {
+    border: 1px solid #DBDBDB;
+}
+
+#logo-container img {
+    width: 180px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#login-form {
+    padding: 20px;
+}
+
+
+form input, button {
+    margin-left: 7%;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    width: 85%;
+    padding: 10px;
+}
+
+input {
+    background-color: #FAFAFA;
+}
+
+#login-button {
+    border: 0px;
+    width: 92%;
+    font-weight: 600;
+    background-color: #4CB5F9;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 9px;
+}
+
+#alternate-login-text {
+    color: #737373;
+    font-size: 18px;
+    padding: 0;
+    margin-right: 5px;
+}
+
+#facebook-login-text {
+    margin-bottom: 20px;
+    :hover {
+        color: #013b62;
+    }
+}
+
+#facebook-login-text img {
+    height: 20px;
+}
+
+#forgot-pass-text {
+    margin-bottom: 0;
+}
+
+a:visited#reg-popup {
+    color: black;
+}
+
+a:visited#forgot-pass-text {
+    color: black;
+}
+
+#reg-popup {
+    padding: 20px;
+}
+
+#footer {
+    margin-top: 70px;
+    height: 120px;
+}
+
+#footer-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#footer ul li, #footer a {
+    list-style: none;
+    text-decoration: none;
+    color: grey;
+    font-size: 11px;
+    margin: 5px;
+    margin-bottom: 15px;
+    :hover {
+        text-decoration: underline;
+    }
+}
+
+#footer-wrapper {
+    width: 78%;
+    text-align: center;
+    margin: auto;
+}

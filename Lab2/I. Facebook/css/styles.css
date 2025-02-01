@@ -1,0 +1,192 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F0F2F5;
+    font-family: 'Facebook Sans', Arial, Helvetica, sans-serif;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    height: 800px;
+}
+
+#content-wrapper {
+    display: flex;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 100;
+    padding: 0px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+#main-logo-img {
+    height: 50px;
+    margin: 0px;
+}
+
+#facebook-logo-container {
+    padding: 0px;
+    height: 225px;
+    width: 500px;
+    text-align: left;
+    margin-left: 350px;
+    padding-top: 200px;
+}
+
+#login-form {
+    height: 310px;
+    width: 370px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0;
+    margin-top: 140px;
+    margin-left: 58px;
+    -webkit-box-shadow: 0px 12px 22px -10px rgba(166,166,166,1);
+-moz-box-shadow: 0px 12px 22px -10px rgba(166,166,166,1);
+box-shadow: 0px 12px 22px -10px rgba(166,166,166,1);
+    padding: 20px;
+}
+
+
+form input, button {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #F0F2F5;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+input {
+    width: 90%;
+}
+
+#login-button, #create-account-button {
+    border: 0px;
+    width: 100%;
+    font-weight: 600;
+    background-color: #0866FF;
+    font-size: 24px;
+    color: white;
+}
+
+#forgot-password {
+    color: #126dff;
+}
+
+#forgot-pass-link a:visited {
+    color: #126dff;
+}
+
+#create-page-link a:visited {
+    color: #000000;
+}
+
+#create-account-button {
+    background-color: #42B72A;
+    width: 55%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+#create-page-link {
+    padding-top: 14px;
+    margin-left: 70px;
+}
+
+#create-page-link a {
+    font-weight: 700;
+}
+
+#login-form-wrapper {
+    font-size: 15px;
+    text-align: center;
+}
+
+#footer {
+    background-color: #FFFFFF;
+}
+
+hr {
+    border: 1px solid #F0F2F5;
+}
+
+#plus-lang-button {
+    padding: 2px;
+    width: 35px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    color: #8B8D91;
+}
+
+#adchoice-img {
+    width: 10px;
+    height: 12px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+ul, li {
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    color: #8B8D91;
+    margin: auto;
+}
+
+li {
+    margin-left: 5px;
+    display: block;
+    width: fit-content;
+}
+
+#footer-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+}
+
+#footer-wrapper li {
+    margin-right: 15px;
+    padding-bottom: 5px;
+}
+
+#meta-li li {
+    margin-top: 20px;
+}
+
+#footer-links li a, #languages li a {
+    color: #8B8D91;
+}
+
+#languages li {
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+
+div#footer-wrapper {
+    width: 70%;
+    padding-top: 20px;
+    text-align: left;
+    margin: auto;
+}
