@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    background-color: rgb(255, 252, 247);
+    color:rgb(69, 53, 45);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+h4 {
+    height: 25px;
+    background-color: rgb(0, 64, 25);
+    margin: 0;
+    padding: 20px;
+    padding-left: 60px;
+    color: rgb(89, 136, 106);
+}
+
+h1 {
+    padding-left: 350px;
+    margin-top: 40px;
+    color:rgb(52, 44, 34);
+    margin-bottom: 5px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-form {
+    margin: 15px 0px;
+}
+
+.todo-input {
+    width: 520px;
+    border-radius: 4px;
+    border: 1px solid rgb(191, 191, 191);
+    padding: 6px;
+    padding-left: 15px;
+}
+
+.add-button {
+    background-color: rgb(18, 98, 18);
+    border-radius: 4px;
+    margin-left: 20px;
+    padding: 6px;
+    width: 45px;
+    color: rgb(255, 252, 247);
+    border: 1px solid rgb(14, 80, 14);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #73E831;
+    border: 1px solid rgb(45, 195, 45);
+}
+
+.todo-items {
+    min-width: 580px;
+    margin-top: 30px;
+}
+
+.item {
+    background-color: #f4ffed;
+    padding: 20px;
+    padding-right: 0;
+    font-size: 15px;
+    border: 1px solid rgb(149, 255, 0);
+    border-radius: 5px;
+}
+
+.checkbox {
+    margin-right: 30px;
+}
+
+.delete-button {
+    background-color: #f4ffed;
+    border: none;
+    outline: none;
+    float: right;
+    margin-right: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1d7813;
+}
+
+.delete-button:hover {
+    color: #dc143c;
+    background-color: #f4ffed;
+    border: none;
+}
+
+.checked {
+    text-decoration: line-through;
+}
