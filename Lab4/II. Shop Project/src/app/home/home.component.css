@@ -1,0 +1,14 @@
+* {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
