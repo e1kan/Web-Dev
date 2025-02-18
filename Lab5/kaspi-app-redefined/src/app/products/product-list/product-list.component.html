@@ -1,0 +1,14 @@
+<h1>{{ categoryName }}</h1>
+<section *ngIf="products.length > 0; else noProducts"> <!-- Showing only specific category items by iterating -->
+  <section *ngFor="let product of products">
+    <app-product-item
+      [product]="product"
+      (removeProduct)="onRemoveProduct($event)">
+    </app-product-item>
+  </section>
+</section>
+
+<!-- No products in the category case: -->
+<ng-template #noProducts>
+  <p>No products available in this category.</p>
+</ng-template>

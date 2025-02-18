@@ -1,0 +1,12 @@
+<section class="listing">
+    <img class="listing-photo" [src]="product.image" alt="Photo of {{product.name}}">
+    <h2 class="listing-heading">{{ product.name }}</h2>
+    <p class="listing-description">{{ product.description }}</p>
+    <p class="listing-rating">⭐ Rating: {{ product.rating }}</p>
+    <section class="listing-buttons">
+    <button (click)="shareOnTelegram(product.link)" type="button" class="listing-share-button">Share</button>
+      <button (click)="onLike()" class="listing-like-button">👍 Like ({{ product.likes }})</button>
+      <button (click)="onRemove()" class="listing-remove-button">❌ Remove</button>
+      <a [href]="product.link" target="_blank" class="listing-buy-href">🛒 Buy Now</a>
+    </section>
+</section>

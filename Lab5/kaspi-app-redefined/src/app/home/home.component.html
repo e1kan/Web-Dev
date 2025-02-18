@@ -1,0 +1,7 @@
+<h1>Welcome to e1kan's Store!</h1>
+<h2>View our categories below:</h2>
+<section class="homecategory-listing" *ngFor="let category of categories">
+    <button (click)="goToCategory(category)">
+      {{ category.name }}
+    </button>
+</section>
